@@ -22,7 +22,7 @@ a {
   font-size: 24px;
   width: 67%;
   float: left;
-  padding-top: 18px;
+  padding-top: 22px;
   color: #999999;
 }
 
@@ -51,12 +51,12 @@ nav {
   display: inline;
   position: relative;
   float: left;
-  /*margin-right: 10px;*/
   list-style: none;
   text-align: center;
-  width: 16.5%;
+  width: 16.6666666667%;
   height: 62px;
   background-color: black;
+  box-sizing: border-box;
   border-right: solid 1px white;
 
 }
@@ -106,7 +106,7 @@ nav {
 #sidebar {
   float: right;
   width: 29%;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-right: 10px;
 }
 
@@ -114,6 +114,7 @@ nav {
   color: #999999;
 }
 .linebreak {
+  clear: both;
   display: block;
   height: 1px;
   border: 0;
@@ -124,14 +125,8 @@ nav {
 
 .ad {
   margin-top: 40px;
+  margin-bottom: 40px;
   margin-left: 40px;
-}
-
-.popular {
-  float: right;
-  width: 29%;
-  margin-right: 30px;
-  margin-top: 80px;
 }
 
 .popular ul {
@@ -144,10 +139,6 @@ nav {
   text-decoration: none;
 }
 
-.footer {
-  clear: both;
-}
-
 .linebreak2 {
   float:right;
   height: 1px;
@@ -155,4 +146,13 @@ nav {
   border-top: 1px solid #ccc;
   margin: 5px 0px 5px 0px;
   padding: 0;
+}
+
+.footer {
+  clear: both;
+  padding-top: 120px;
+}
+
+#copyright {
+  margin-top: 40px;
 }
