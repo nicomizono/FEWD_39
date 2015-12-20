@@ -39,7 +39,7 @@ nav {
   position: absolute;
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   top: 50%;
   left: 50%;
@@ -53,7 +53,7 @@ nav {
   list-style: none;
   text-align: center;
   width: 16.6666666667%;
-  height: 62px;
+  height: 52px;
   background-color: black;
   box-sizing: border-box;
   border-right: solid 1px white;
@@ -146,6 +146,7 @@ nav {
 }
 .popular li {
   color: #999999;
+  line-height: 2;
 }
 .popular a {
   text-decoration: none;
@@ -162,7 +163,7 @@ nav {
 
 .footer {
   clear: both;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 #copyright {
