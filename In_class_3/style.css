@@ -1,0 +1,66 @@
+body .stackers {
+  margin-top: 50px;
+}
+
+body {
+  margin: 0 25%;
+}
+
+div {
+  width: 600px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.box_2 {
+  margin-left: 100px;
+}
+
+.box_3 {
+  margin-left: 200px;
+}
+
+.stackers {
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.box_5 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50px;
+  top: 50px;
+}
+
+.box_6 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 100px;
+  top: 100px;
+}
+
+.box_7 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 200px;
+  top: 200px;
+}
+
+.rect_1 {
+  width: 0 auto;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.box_8 {
+  position: static;
+  width: 50%;
+}

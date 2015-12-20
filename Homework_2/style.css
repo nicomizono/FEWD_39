@@ -44,7 +44,6 @@ nav {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-
 }
 
 .nav li {
@@ -90,6 +89,14 @@ nav {
 .content_1 p {
   float: left;
   margin-top: 320px;
+  line-height: 1.6;
+}
+
+.content_1 p:first-letter {
+  float: left;
+  font-size: 120px;
+  line-height: .75;
+  margin: 0px 10px 0px 0px;
 }
 
 .content_2 {
@@ -113,6 +120,11 @@ nav {
 #sidebar h3 {
   color: #999999;
 }
+
+.about_us p {
+  line-height: 1.6;
+}
+
 .linebreak {
   clear: both;
   display: block;
@@ -150,9 +162,10 @@ nav {
 
 .footer {
   clear: both;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 #copyright {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
