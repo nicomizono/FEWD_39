@@ -11,10 +11,10 @@ body {
 .container h1 {
   position: absolute;
   font-family: 'freight-big-pro';
-  font-weight: 500;
+  font-weight: 700;
   font-size: 150px;
   color: white;
-  left: 345px;
+  left: 354px;
   top: 213px;
   margin: 0;
 }
