@@ -6,6 +6,7 @@ body {
 ul {
   margin: 0;
 }
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -40,10 +41,10 @@ ul {
 
 .homework1 {
   position: relative;
-  float: left;
-  display: inline;
+  display: inline-block;
   height: 600px;
   width: 652px;
+  margin-left: auto;
   border-left: 40px white solid;
   border-top: 40px white solid;
   border-right: 20px white solid;
@@ -52,11 +53,11 @@ ul {
 }
 
 .homework2 {
-  display: inline;
-  float: right;
+  display: inline-block;
   position: relative;
   height: 600px;
   width: 652px;
+  margin-right: auto;
   border-left: 20px white solid;
   border-top: 40px white solid;
   border-right: 40px white solid;
@@ -66,6 +67,8 @@ ul {
 .homework1 a {
     position: absolute;
     text-decoration: none;
+    font-family: 'freight-big-pro';
+    font-weight: 200;
     color: white;
     font-size: 80px;
     font-weight: 200;
@@ -76,6 +79,8 @@ ul {
 .homework2 a {
     position: absolute;
     text-decoration: none;
+    font-family: 'freight-big-pro';
+    font-weight: 200;
     color: white;
     font-size: 80px;
     font-weight: 200;
