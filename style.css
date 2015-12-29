@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #101211;
 }
 
 ul {
@@ -37,23 +38,47 @@ ul {
   margin: 0;
 }
 
-
-.homework {
-  background-color: #ffffff;
-}
-
-
-.homework button {
+.homework1 {
+  position: relative;
+  float: left;
   display: inline;
-  list-style: none;
-  padding: 100px 50px;
-  margin: 50px 0px;
-  background-color: #f1f1f1;
-  border: none;
+  height: 600px;
+  width: 652px;
+  border-left: 40px white solid;
+  border-top: 40px white solid;
+  border-right: 20px white solid;
+  border-bottom: 40px white solid;
+  text-align: center;
 }
 
-.homework a {
-  text-decoration: none;
-  font-size: 24px;
-  color: #555555;
+.homework2 {
+  display: inline;
+  float: right;
+  position: relative;
+  height: 600px;
+  width: 652px;
+  border-left: 20px white solid;
+  border-top: 40px white solid;
+  border-right: 40px white solid;
+  border-bottom: 40px white solid;
+}
+
+.homework1 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+    font-weight: 200;
+    top: 200px;
+    left: 125px;
+}
+
+.homework2 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 80px;
+    font-weight: 200;
+    top: 200px;
+    left: 125px;
 }
