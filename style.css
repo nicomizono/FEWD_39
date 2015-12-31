@@ -7,6 +7,11 @@ ul {
   margin: 0;
 }
 
+a {
+  font-family: 'Proxima Nova';
+  font-weight: 300;
+}
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -39,16 +44,17 @@ ul {
   margin: 0;
 }
 
+.containerhw {
+  position: relative;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .homework1 {
   position: relative;
   display: inline-block;
   height: 600px;
-  width: 652px;
-  margin-left: auto;
-  border-left: 40px white solid;
-  border-top: 40px white solid;
-  border-right: 20px white solid;
-  border-bottom: 40px white solid;
+  width: 710px;
   text-align: center;
 }
 
@@ -56,22 +62,15 @@ ul {
   display: inline-block;
   position: relative;
   height: 600px;
-  width: 652px;
-  margin-right: auto;
-  border-left: 20px white solid;
-  border-top: 40px white solid;
-  border-right: 40px white solid;
-  border-bottom: 40px white solid;
+  width: 710px;
 }
 
 .homework1 a {
     position: absolute;
     text-decoration: none;
-    font-family: 'freight-big-pro';
-    font-weight: 200;
     color: white;
-    font-size: 80px;
-    font-weight: 200;
+    font-size: 64px;
+    font-weight: 800;
     top: 200px;
     left: 125px;
 }
@@ -79,11 +78,27 @@ ul {
 .homework2 a {
     position: absolute;
     text-decoration: none;
-    font-family: 'freight-big-pro';
-    font-weight: 200;
     color: white;
-    font-size: 80px;
-    font-weight: 200;
-    top: 200px;
-    left: 125px;
+    font-size: 100px;
+    font-weight: 800;
+    top: 100px;
+    left: 295px;
+}
+
+.line {
+  position: absolute;
+  height: 1px;
+  width: 120px;
+  top: 233px;
+  left: 299px;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.HW {
+  font-family: 'Proxima Nova';
+  font-weight: 200;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: justify;
 }
