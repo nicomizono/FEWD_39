@@ -1,0 +1,136 @@
+body {
+	margin:0;
+	margin-bottom:40px;
+}
+
+h2 {
+	margin:0;
+}
+
+/*.txt-center {
+	text-align:center;
+}*/
+
+.margin-top-20 {
+	margin-top:20px;
+}
+
+.banner {
+	background:url(../img/profile4.jpg) no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 800px;
+	position:relative;
+	background-attachment: fixed;
+}
+
+.fixed-top {
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.navbar {
+	width:100%;
+	height:60px;
+	background-color:rgba(0, 0, 0, 0.2);
+	z-index:9999;
+	position: fixed;
+}
+
+.navbar h2 {
+		margin: 0;
+		font-family: 'Playfair Display', serif;
+		font-weight: 500;
+		font-size: 36px;
+		color: #FFF;
+		margin-left: 30px;
+		margin-top: 5px;
+}
+/*
+.navbar-brand {
+	color:#000;
+	line-height:60px;
+	margin-left:20px;
+	font-weight:700;
+	font-style:italic;
+	font-size:30px;
+}*/
+
+.container {
+	width:100%;
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.user-info-container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+.col-6 {
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+}
+
+/*what do you need to add here to make the columns line up next to each other and also take up 1/3 of the width each
+*/
+.col-4 {
+	float: left;
+	display: block;
+	box-sizing:border-box;
+	padding: 0 30px;
+	width: 33.33%;
+}
+
+.headshot img {
+	width:70%;
+	border-radius:100%;
+	display:block;
+	border:#CCC 4px solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.user-info-text {
+	border-radius:2px;
+	padding:60px;
+	margin-top:20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.user-info-text h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-style: bold;
+	color: #d9d9d9;
+}
+
+.user-info-text p {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #b9b9b9;
+	line-height: 26px;
+}
+
+.margin-top-50 {
+	margin-top:50px;
+}
+
+.hero-icon{
+	font-size:100px;
+	text-align: center;
+}
+.hero-icon i:hover{
+	color:#06C;
+	cursor:pointer;
+}
+
+.hero-text {
+	font-size:1.2em;
+}
