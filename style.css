@@ -87,3 +87,47 @@ a {
   letter-spacing: 1px;
   text-align: center;
 }
+
+.hw_2 {
+  margin-top: 350px;
+}
+
+.hw_2 h3 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+  color: #a9a9a9;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hw_2 a {
+  font-size: 100px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.hw_3 {
+  margin-top: 350px;
+}
+
+.hw_3 h3 {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+  color: #a9a9a9;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.hw_3 a {
+  font-size: 100px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
