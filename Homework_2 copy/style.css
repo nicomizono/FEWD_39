@@ -1,0 +1,176 @@
+body {
+  width: 95%;
+  margin: auto;
+  background-color: #f5f5f5;
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: red;
+}
+.col-md-12 {
+  padding: 0;
+}
+.mainheader h1 {
+  font-size: 48px;
+  color: maroon;
+  float: left;
+  margin: 20px 0px 0px 0px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.better-dressed h3 {
+  font-size: 24px;
+  float: left;
+  padding-top: 25px;
+  padding-left: 30px;
+  color: #b1b1b1;
+  margin: 20px 0 0 0;
+}
+
+nav {
+  clear: both;
+  margin-top: 20px;
+}
+
+.nav ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.nav li {
+  display: inline;
+  position: relative;
+  float: left;
+  list-style: none;
+  text-align: center;
+  width: 16.6666666667%;
+  height: 52px;
+  background-color: black;
+  box-sizing: border-box;
+  border-right: solid 1px white;
+
+}
+
+.content_1 {
+  clear: both;
+  display: inline;
+  float: left;
+  width: 67%;
+  margin-top: 20px;
+}
+
+.content_1 h2 {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0px 0px 0px;
+}
+
+.content_1 h1 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 500;
+  font-size: 54px;
+}
+
+.content_1 img {
+  position: absolute;
+  clip: rect(0px,900px,300px,0px);
+}
+
+.content_1 p {
+  float: left;
+  margin-top: 320px;
+  line-height: 1.6;
+}
+
+.content_1 p:first-letter {
+  float: left;
+  font-size: 120px;
+  line-height: .75;
+  margin: 0px 10px 0px 0px;
+}
+
+.content_2 {
+  float: left;
+}
+
+.read_more {
+  float: right;
+  margin: 10px 0px 20px 0px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#sidebar {
+  float: right;
+  width: 29%;
+  margin-top: 80px;
+  margin-right: 10px;
+}
+
+#sidebar h3 {
+  color: #999999;
+}
+
+.about_us p {
+  line-height: 1.6;
+}
+
+.linebreak {
+  clear: both;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+
+.ad {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.popular ul {
+  padding-left: 16px;
+}
+.popular li {
+  color: #999999;
+  line-height: 2;
+}
+.popular a {
+  text-decoration: none;
+}
+
+.linebreak2 {
+  float:right;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+
+.footer {
+  clear: both;
+  padding-top: 40px;
+}
+
+#copyright {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

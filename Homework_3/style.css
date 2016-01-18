@@ -1,7 +1,7 @@
-.navbar, .navbar-fixed-top, .navbar-dark {
+/*.navbar, .navbar-fixed-top, .navbar-dark {
   background-color: #222222;
-}
-.navbar-brand{
+}*/
+/*.navbar-brand{
   text-shadow: none;
 }
 .nav, .navbar-nav, .inactive, a {
@@ -9,39 +9,37 @@
   text-shadow: none;
 }
 
-.navbar-nav, .nav li   a {
+.navbar-nav, .nav li a {
   text-shadow: none;
 }
 
 .nav, .navbar-nav, .active a {
   color: #FFFFFF;
   text-shadow: none;
-}
+}*/
 
-.active {
+/*.active {
   background-color: #010101;
   text-shadow: none;
+}*/
+
+body {
+  padding-top: 0;
+}
+.navbar-inverse {
+  background-image: none;
 }
 
-
-
-.jumbotron {
-  position: relative;
-  margin-top: 80px;
-}
-
-.list-group {
-  margin-top: 80px;
-}
-
-.col-sm-9 {
-  margin-top: -100px;
-  padding: 0;
-}
-
+/*.col-xs-6, .col-lg-4 {
+  padding:0;
+}*/
 .btn-default {
   background-image: none;
   box-shadow: none;
+}
+
+.button {
+  overflow: visible;
 }
 
 .hr {
