@@ -23,6 +23,17 @@ body { font-family: sans-serif; }
 
   <script>
   // create a  function called addListItem here
+ function addListItem () {
+   // Prompt for a to-do
+   var response = prompt("What do you want to do?");
+   // Create a list item
+   var listItem = document.createElement("li");
+  //decorate the list item with the value from your prompt
+  listItem.textContent = response
+  //add it to list
+  var parent = document.querySelector ("#todo-list");
+  parent.appendChild(listItem)
+ }
 
   </script>
 </div>
@@ -44,7 +55,17 @@ body { font-family: sans-serif; }
 
   <script>
  //create a function called addImage here
-
+function addImage(){
+  var response = prompt("Please add an image source");
+  var width = prompt("Add a width");
+  var height = prompt("Add a height");
+  var image = document.createElement("img");
+  image.setAttribute("src", response);
+  image.setAttribute("width", width);
+  image.setAttribute("height", height);
+  var imgParent = document.querySelector ("#image");
+  imgParent.appendChild(image);
+}
   </script>
 </div>
 
@@ -63,16 +84,10 @@ body { font-family: sans-serif; }
 
   <script>
   //create a function called makeBold here
- function addListItem () {
-   // Prompt for a to-do
-   var response = prompt("What do you want to do?");
-   // Create a list item
-   var listItem = document.createElement("li");
-  //decorate the list item with the value from your prompt
-  listItem.textContent = response
-  //add it to list
-  var parent = document.querySelector ("#todo-list");
-  parent.appendChild(listItem)
- }
+  function makeBold(){
+    document.querySelector("#make-me-bold").classList.toggle("bold");
+  }
   </script>
+
+
 </div>
