@@ -23,9 +23,8 @@ background-color: #f2f2f2;
 }
 
 .illus {
-  text-align: center;
-  border: 1px solid #d9d9d9;
-  box-sizing: border-box;
+  width: 100%
+  height: auto;
   padding: 200px;
 }
 
