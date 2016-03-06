@@ -1,12 +1,5 @@
 body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -43,19 +36,19 @@ a {
   border: 1px solid #021427;
 }
 
-#title {
+.main > section:nth-child(1) {
   width:40%;
   top: 0;
 	left: 0;
 	background: #011f2d;
 }
 
-.main > section:nth-child(2) {
+.main > section:nth-child(2){
 	top: 0;
 	left: 40%;
 	background: #011f2d;
-}
 
+}
 .main > section:nth-child(3) {
 	top: 0;
 	left: 60%;
@@ -115,6 +108,13 @@ a {
 	background: #011f2d;
 }
 
+.main > section:nth-child(13) {
+  width:40%;
+  top: 66.6666667%;
+	left: 60%;
+	background: #011f2d;
+}
+
 .about-box, h1{
 	position: relative;
 	width: 100%;
@@ -143,63 +143,36 @@ a {
 	align-items: center;
 }
 
-.main-title {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	cursor: default;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-box-pack: left;
-	-moz-box-pack: left;
-	-webkit-justify-content: left;
-	-ms-flex-pack: left;
-	justify-content: center;
-	-webkit-box-align: left;
-	-moz-box-align: left;
-	-webkit-align-items: left;
-	-ms-flex-align: left;
+#principles-parent {
+	display:flex;
 	align-items: center;
+	justify-content: center;
 }
 
-#bottom-title {
-  width:40%;
-  top: 66.6666667%;
-	left: 60%;
-	background: #011f2d;
-}
-
-#Dieter > h2{
+#dieter {
 	color: #c11e50;
   font-size: 1.1em;
 	letter-spacing: .5px;
 	font-weight: 400;
+	padding-bottom: 5px;
 }
 
-#ten-principles > h2{
+#principles {
 	font-size: 5.2em;
 	letter-spacing: 1px;
 	font-weight: 700;
-	color: #fff;
-	margin: auto 0;
-
+	padding-top: 5px;
 }
 
 .about-box h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-size: 1.4em;
 	letter-spacing: 1.3px;
 	font-weight: 500;
 	color: #cccccc;
-	margin: 20px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 .circle {
@@ -214,19 +187,30 @@ background:#021427;
 margin: auto;
 }
 
-#of-title {
+#of-title-parent {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#of-title-child {
 	font-size: 5.2em;
 	letter-spacing: 1px;
 	font-weight: 700;
 	color: #fff;
 	opacity: 1;
-	cursor: default;
 }
 
-#good-design-title{
+#bottom-title {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+#good-design-title {
 	font-size: 5.2em;
 	letter-spacing: 1px;
 	font-weight: 700;
 	color: #fff;
-	cursor: default;
+	opacity: 1;
 }
